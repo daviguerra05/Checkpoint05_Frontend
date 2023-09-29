@@ -1,7 +1,6 @@
 import {} from 'react';
 /*importando o bootstrap */
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ProgressBar from 'react-bootstrap/ProgressBar';
 /*importando todas as imagens */
 import Imagem1 from './assets/produto-hero.jpg';
 import Img1 from './assets/cat-img-1.jpg';
