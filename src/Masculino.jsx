@@ -1,32 +1,46 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from './assets/product-2.jpg';
+import '../src/css/carousel.css'
 
 export const Masculino = () => {
   return (
-        <Carousel>
-            <Carousel.Item>
-                <ExampleCarouselImage text="First slide" />
-                <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <ExampleCarouselImage text="Second slide" />
-                <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <ExampleCarouselImage text="Third slide" />
-                <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                </p>
-                </Carousel.Caption>
-            </Carousel.Item>
-        </Carousel>
+    <Carousel className='carousel_div' data-bs-theme="dark">
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="src\assets\relogio.webp"
+          alt="First slide"
+          height={'500px'}
+        />
+        <Carousel.Caption className='c_cap'>
+          <h5>Relógio Vivara</h5>
+          <p>Relógio Masculino de luxo Vivara</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="src\assets\sapato-casual01img-1.jpg"
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+          <h5>Sapato</h5>
+          <p>Sapato Social Masculino de couro</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="src\assets\shirt.jpg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h5>Camiseta Branca</h5>
+          <p>
+            Camiseta Branca Masculina Simples
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+    
   )
 }
