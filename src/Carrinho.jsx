@@ -14,13 +14,17 @@ function Carrinho(){
         }
     }
     return(
-        <div>
+        <div id='ca_section'>
             <h1>Carrinho</h1>
-            <div id='carrinho'></div>
-            <div id='contador'>0</div>
+
+            <div className='ca_container'>
+                <div id='carrinho'></div>
+                <div id='contador'>0</div>
+            </div>
+
             <>
-                <Button variant="dark" onClick={add}>Adicionar Item</Button>
-                <Button variant="dark" onClick={remove}>Remover Item</Button>
+                <Button className='ct_bt' variant="dark" onClick={add}>Adicionar Item</Button>
+                <Button className='ct_bt' variant="danger" onClick={remove}>Remover Item</Button>
             </>
         </div>
     )

@@ -13,7 +13,7 @@ function Outlet(){
             />
             <Carousel.Caption className='c_cap'>
             <h5>Fone de Ouvido</h5>
-            <p>Relógio Masculino de luxo Vivara</p>
+            <p>Fone de Ouvido Apple</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -23,8 +23,8 @@ function Outlet(){
             alt="Second slide"
             />
             <Carousel.Caption>
-            <h5>Sapato</h5>
-            <p>Sapato Social Masculino de couro</p>
+            <h5>Perfume</h5>
+            <p>Perfume Jo Malone</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -34,9 +34,9 @@ function Outlet(){
             alt="Third slide"
             />
             <Carousel.Caption>
-            <h5>Camiseta Branca</h5>
+            <h5>Tênis Esportivo</h5>
             <p>
-                Camiseta Branca Masculina Simples
+                Tênis Esportivo Nike
             </p>
             </Carousel.Caption>
         </Carousel.Item>

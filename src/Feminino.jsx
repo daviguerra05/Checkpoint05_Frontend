@@ -13,7 +13,7 @@ function Feminino(){
             />
             <Carousel.Caption className='c_cap'>
             <h5>Relógio Guess</h5>
-            <p>Relógio Masculino de luxo Vivara</p>
+            <p>Relógio Feminino Elegante</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -23,8 +23,8 @@ function Feminino(){
             alt="Second slide"
             />
             <Carousel.Caption>
-            <h5>Sapato</h5>
-            <p>Sapato Social Masculino de couro</p>
+            <h5>Salto Fino</h5>
+            <p>Salto Fino Preto</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -34,9 +34,9 @@ function Feminino(){
             alt="Third slide"
             />
             <Carousel.Caption>
-            <h5>Camiseta Branca</h5>
+            <h5>Camiseta Preta</h5>
             <p>
-                Camiseta Branca Masculina Simples
+                Camiseta Preta Feminina simples
             </p>
             </Carousel.Caption>
         </Carousel.Item>
