@@ -36,6 +36,11 @@ function Nav() {
                   <h6 className={styles.tlink}>Outlet</h6>
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink to="/Carrossel" className="nav-link">
+                  <h6 className={styles.tlink}>Nossos Serviços</h6>
+                </NavLink>
+              </li>
             </ul>
           </a>
           {/* botão  para criar a menu hamburguer */}
